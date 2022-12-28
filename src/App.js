@@ -1,24 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import Notice from './component/Notice';
+import noticedb from './data/notice.json'
 
 function App() {
+  const noticejs=noticedb;
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      {/* 컴포넌트 자바스크립트  */}
+      <Notice title={noticejs.title} 
+              cls = {noticejs.cls}
+              contents={noticejs.contents}></Notice>
+     </div>
   );
 }
 

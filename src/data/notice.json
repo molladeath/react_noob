@@ -1,0 +1,19 @@
+{
+    "title" : "공지사항",
+    "cls" : ["bg-dark", "text-white" ],
+    "contents" : [
+        {
+        "subject" : "배송지연안내",
+        "contents" : "안녕하세요. 잘가세요"
+        },
+        {
+            "subject" : "춥다염병",
+            "contents" : "목감기염병"
+        },
+        {
+            "subject" : "키?",
+            "contents" : "값!"
+         }
+    ]
+
+}
